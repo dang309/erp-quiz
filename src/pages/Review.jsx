@@ -14,7 +14,6 @@ import {
 
 import ArrowCircleLeftSharpIcon from "@mui/icons-material/ArrowCircleLeftSharp";
 import ArrowCircleRightSharpIcon from "@mui/icons-material/ArrowCircleRightSharp";
-import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 
 import { useSelector } from "react-redux";
 

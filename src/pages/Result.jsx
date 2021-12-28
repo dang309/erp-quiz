@@ -8,7 +8,6 @@ import {
   Paper,
   ButtonGroup,
   Button,
-  Box,
 } from "@mui/material";
 
 import HomeIcon from "@mui/icons-material/Home";
@@ -17,8 +16,6 @@ import FactCheckIcon from "@mui/icons-material/FactCheck";
 import { useSelector } from "react-redux";
 
 import { Link as RouterLink } from "react-router-dom";
-
-import ERP_QUIZ from "../constant/erp";
 
 function Result(props) {
   const questions = useSelector((state) => state.question.questions);

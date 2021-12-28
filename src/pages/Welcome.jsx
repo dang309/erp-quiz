@@ -11,9 +11,7 @@ import {
   FormControlLabel,
 } from "@mui/material";
 
-import ShuffleIcon from "@mui/icons-material/Shuffle";
-
-import { Link as RouteLink, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 import { useDispatch } from "react-redux";
 import { SET_QUESTIONS } from "../reducers/questions";
@@ -25,7 +23,6 @@ import _shuffle from "lodash/shuffle";
 function Welcome(props) {
   const dispatch = useDispatch();
   const naviagate = useNavigate();
-  const { setDoStartExam, handleShuffleQuestions } = props;
 
   const [numOfQuestions, setNumOfQuestions] = useState(10);
 
