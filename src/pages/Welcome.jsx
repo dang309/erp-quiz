@@ -37,6 +37,12 @@ function Welcome(props) {
     <Container sx={{ mt: 8 }}>
       <Stack spacing={2} direction="column" alignItems="center">
         <Typography variant="h4">300 câu hỏi trắc nghiệm môn ERP</Typography>
+        <Typography variant="caption">
+          Nguồn:
+          <em>
+            https://drive.google.com/drive/folders/1rKt5S-uceqxDyfFTFKTThHzzm46uJ8bF
+          </em>
+        </Typography>
         <Typography variant="body1">
           Chương trình sẽ tự động chọn ra {numOfQuestions} câu ngẫu nhiên trong
           300 câu
