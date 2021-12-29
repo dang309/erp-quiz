@@ -15,6 +15,7 @@ import {
 import ArrowCircleLeftSharpIcon from "@mui/icons-material/ArrowCircleLeftSharp";
 import ArrowCircleRightSharpIcon from "@mui/icons-material/ArrowCircleRightSharp";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 
 import QuizCard from "../components/QuizCard";
 
@@ -87,6 +88,7 @@ function HomePage(props) {
               color="secondary"
               component={RouterLink}
               to="/result"
+              startIcon={<ArrowUpwardIcon />}
             >
               Nộp bài
             </Button>
@@ -192,6 +194,7 @@ function HomePage(props) {
                 color="secondary"
                 component={RouterLink}
                 to="/result"
+                startIcon={<ArrowUpwardIcon />}
               >
                 Nộp bài
               </Button>

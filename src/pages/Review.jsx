@@ -14,6 +14,7 @@ import {
 
 import ArrowCircleLeftSharpIcon from "@mui/icons-material/ArrowCircleLeftSharp";
 import ArrowCircleRightSharpIcon from "@mui/icons-material/ArrowCircleRightSharp";
+import HomeIcon from "@mui/icons-material/Home";
 
 import { useSelector } from "react-redux";
 
@@ -66,6 +67,7 @@ function Review(props) {
               color="secondary"
               component={RouterLink}
               to="/"
+              startIcon={<HomeIcon />}
             >
               Trang chủ
             </Button>
@@ -157,9 +159,21 @@ function Review(props) {
               <ArrowCircleLeftSharpIcon />
             </IconButton>
 
-            <IconButton color="secondary" onClick={handleNextQuestion}>
-              <ArrowCircleRightSharpIcon />
-            </IconButton>
+            {questionIndex === questions.length - 1 ? (
+              <Button
+                variant="contained"
+                color="secondary"
+                component={RouterLink}
+                to="/"
+                startIcon={<HomeIcon />}
+              >
+                Trang chủ
+              </Button>
+            ) : (
+              <IconButton color="secondary" onClick={handleNextQuestion}>
+                <ArrowCircleRightSharpIcon />
+              </IconButton>
+            )}
           </Stack>
         </Stack>
       )}
