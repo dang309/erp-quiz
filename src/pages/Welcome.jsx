@@ -31,6 +31,10 @@ function Welcome(props) {
 
   const handleStartExam = () => {
     let temp = _shuffle(ERP_QUIZ).slice(0, parseInt(numOfQuestions));
+    // let temp = _shuffle(ERP_QUIZ.slice(200, 300)).slice(
+    //   0,
+    //   parseInt(numOfQuestions)
+    // );
     temp = temp.map((item) => ({ ...item, chosenOption: "" }));
     dispatch(SET_QUESTIONS(temp));
     naviagate("/home", { replace: true });
