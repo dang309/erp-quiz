@@ -23,7 +23,7 @@
     "build": "CI=false && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "pb": "node ./publish.js"
+    "pb": "git add . && git commit -m '.' && git push origin master"
   },
   "eslintConfig": {
     "extends": "react-app"
