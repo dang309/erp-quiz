@@ -55,7 +55,9 @@ function Welcome(props) {
           (GV. Huỳnh Đức Huy)
         </Typography>
         <Typography variant="caption">
-          Mọi phản hồi xin gửi về email <strong>19521315@gm.uit.edu.vn</strong>
+          Việc sai sót là không thể tránh khỏi nên có bất kỳ vấn đề gì thì mọi
+          người thông cảm và phản hồi về email{" "}
+          <strong>19521315@gm.uit.edu.vn</strong>. Xin cám ơn!💕😅
         </Typography>
         <Typography variant="body1">
           Chương trình sẽ tự động chọn ra ngẫu nhiên trong 300 câu
