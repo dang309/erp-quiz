@@ -37,7 +37,7 @@ function Welcome(props) {
   };
 
   return (
-    <Container sx={{ mt: 8 }}>
+    <Container sx={{ my: 8 }}>
       <Stack spacing={2} direction="column" alignItems="center">
         <Typography variant="h4">300 câu hỏi trắc nghiệm môn ERP</Typography>
         <Typography variant="caption">
